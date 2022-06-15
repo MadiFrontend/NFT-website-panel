@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.btn {
+    width: auto;
+    height: auto;
+    border: none;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    margin: 0 auto;
+}
+.navbar {
+    width: 20%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.main {
+    background: forestgreen;
+    width: 100%;
+    height: 100%;
+}
+.menu {
+    width: 100%;
+    height: 10%;
+    background-color: aliceblue;
+}
+.left_main {
+    width: 80%;
+    background-color: beige;
+    height: 100%;
+}
+.right_main {
+    width: 30%;
+    background-color: rgb(204, 204, 3);
+    height: 100%;
+}
+.main_side {
+    width: 100%;
+    height: 90%;
+    display: flex;
+}
+.logo_section {
+    /* border: 1px solid red; */
+    display: flex;
+    margin: 1.3rem 0 0 2rem;
+}
+.logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.logo_section h3 {
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+.items_navbar div {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    margin: 1.3rem 0 0 2.5rem;
+}
+.items_navbar div h3{
+    margin-top: 1.3rem;
+}
+.items_navbar div ul li a {
+    text-decoration: none;
+    color: rgb(139, 139, 139);
+}
+.items_navbar div ul li {
+    list-style: none;
+    padding-top: 1.5rem;
+    display: flex;
+}
+.items_navbar div ul li i {
+    margin-right: 1.5rem;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(22, 22, 22);
+    border-radius: 50%;
+}
+.items_navbar button {
+    margin: 1.3rem 0 0 2rem;
+}
