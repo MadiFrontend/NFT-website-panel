@@ -16,38 +16,101 @@
         <div class="container">
             <div class="navbar">
                 <div class="logo_section">
-                    <img src="./images/logo.jpg" alt="logo" class="logo" />
-                    <h3>Madi Panel</h3>
+                    <a href="">
+                        <img src="./images/logo.jpg" alt="logo" class="logo" />
+                        <h3>Madi Panel</h3>
+                    </a>
                 </div>
                 <div class="items_navbar">
                     <div>
                         <ul>
-                            <li><i></i><a href="">Dashboard</a></li>
-                            <li><i></i><a href="">Buy & Sell</a></li>
-                            <li><i></i><a href="">Swap</a></li>
-                            <li><i></i><a href="">NFTs</a></li>
-                            <li><i></i><a href="">My Favorites</a></li>
+                            <li>
+                                <ion-icon name="home-outline"></ion-icon>
+                                <a href="#">Dashboard</a>
+                            </li>
+                            <li>
+                                <ion-icon name="basket-outline"></ion-icon>
+                                <a href="#">Buy & Sell</a>
+                            </li>
+                            <li>
+                                <ion-icon
+                                    name="swap-horizontal-outline"
+                                ></ion-icon>
+                                <a href="#">Swap</a>
+                            </li>
+                            <li>
+                                <ion-icon name="cube-outline"></ion-icon>
+                                <a href="#">NFTs</a>
+                            </li>
+                            <li>
+                                <ion-icon name="heart-outline"></ion-icon>
+                                <a href="#">My Favorites</a>
+                            </li>
                         </ul>
                     </div>
                     <div>
                         <h3>Trending Coins</h3>
                         <ul>
-                            <li><i></i><a href="">Bitcoin</a></li>
-                            <li><i></i><a href="">Ether</a></li>
-                            <li><i></i><a href="">BitCash</a></li>
-                            <li><i></i><a href="">DogCoin</a></li>
+                            <li>
+                                <ion-icon name="logo-bitcoin"></ion-icon>
+                                <a href="#">Bitcoin</a>
+                            </li>
+                            <li>
+                                <ion-icon name="logo-bitcoin"></ion-icon>
+                                <a href="#">Ether</a>
+                            </li>
+                            <li>
+                                <ion-icon name="logo-bitcoin"></ion-icon>
+                                <a href="#">BitCash</a>
+                            </li>
+                            <li>
+                                <ion-icon name="logo-bitcoin"></ion-icon>
+                                <a href="#">DogCoin</a>
+                            </li>
                         </ul>
                     </div>
                     <button class="btn">Need Help?</button>
                 </div>
             </div>
+
             <div class="main">
-                <div class="menu">menu</div>
+                <div class="menu">
+                    <div class="search_section">
+                        <ion-icon name="search-outline"></ion-icon>
+                        <input
+                            type="text"
+                            class="input_search"
+                            placeholder="Search NFTs"
+                        />
+                        <ion-icon name="options-outline"></ion-icon>
+                    </div>
+                    <div class="profile_section">
+                        <div class="prof_back">
+                            <ion-icon
+                                name="chatbox-ellipses-outline"
+                            ></ion-icon>
+                        </div>
+                        <div class="prof_back">
+                            <ion-icon name="notifications-outline"></ion-icon>
+                        </div>
+                        <div class="prof_back" id="prof"></div>
+                    </div>
+                </div>
+
                 <div class="main_side">
                     <div class="left_main">left main</div>
                     <div class="right_main">right main</div>
                 </div>
             </div>
         </div>
+
+        <script
+            type="module"
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+        ></script>
     </body>
 </html>
