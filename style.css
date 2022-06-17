@@ -59,7 +59,6 @@ div {
 }
 .right_main {
     width: 40%;
-    background-color: rgb(204, 204, 3);
     height: 100%;
 }
 .main_side {
@@ -258,7 +257,218 @@ div {
 .payment_section{
     width: 100%;
     height: 35%;
-    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 1.5rem 0 1.5rem;
 }
 
+.payment_section h2{
+    font-size: 1.2rem;
+}
+
+.payment_section_text{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 7fr 3.5fr 3fr 2fr;
+    margin-top: 8px; 
+    cursor: pointer;
+}
+.payment_section div p{
+    font-size: 12px;
+    color: rgb(160, 160, 160);
+}
+
+.payment_section div p:hover{
+    color: blueviolet;
+    font-weight: 500;
+}
+
+.payment_row{
+    width: 95%;
+    display: grid;
+    grid-template-columns: 1.5fr 3.5fr 3fr 2.5fr 1fr;
+    align-items:center;
+    margin-top: 15px;
+    
+}
+.payment_row_profile{
+    width: 30px;
+    height: 30px;
+    background-image: url(./images/profile.jpg);
+    background-size: contain;
+    border-radius: 50%;
+}
+.payment_row_price{
+    display: flex;
+}
+.payment_row_btn{
+    width: 90px;
+    height: 30px;
+    background-color: aquamarine;
+    color: green;
+    border: none; 
+    border-radius: 10px;
+    cursor: pointer;
+}
+.payment_row_btn_fail{
+    width: 90px;
+    height: 30px;
+    background-color: rgb(255, 136, 0);
+    color: rgb(255, 255, 255);
+    border: none; 
+    border-radius: 10px;
+    cursor: pointer;
+}
 /*----------------left_main----------------*/
+
+.right_main{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 1.5rem 0 1.5rem;
+}
+.right_main h2{
+    font-size: 1.2rem;
+}
+#right_main_text{
+    font-size: 12px;
+    color: rgb(17, 17, 17);
+    margin-top: 8px ;
+    cursor: pointer;
+}
+.mywallet{
+    width: 100%;
+    height: 50%;
+}
+.credit p{
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+#card_num{
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.credit{
+    width: 100%;
+    height:80%;
+    background-image: url(./images/cart.jpg);
+    border-radius: 20px;
+    margin-top: 10px;  
+    cursor: pointer;
+    position: relative;
+
+}
+.credit_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.credit_username p:nth-child(1){
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 150px;
+    left: 280px;
+    cursor: pointer;
+}
+.credit_username p:nth-child(2){
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 170px;
+    left: 280px;
+    cursor: pointer;
+}
+.credit_date p:nth-child(1){
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    cursor: pointer;
+}
+.credit_date p:nth-child(2){
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 170px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.overview{
+    width: 100%;
+    height: 50%;
+    margin-top: 30px;
+}
+.overview_credit{
+    width: 100%;
+    height:50%;
+    background:rgb(134, 196, 255);
+    border-radius: 20px;
+    margin-top: 10px;  
+    cursor: pointer;
+    position: relative;
+}
+.overview_credit_right{
+    width: 40%;
+    height: 80%;
+    position: absolute;
+    right: 0;
+    
+}
+.overview_credit_right img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 17px;
+    top: 15px;
+}
+.overview_credit_left{
+    width: 60%;
+    height: 80%;
+    position: absolute;
+    top: 20px;
+    left: 5%;
+}
+.overview_credit_up p:nth-child(1){
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: rgba(15, 64, 199, 0.5);
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.overview_credit_down p:nth-child(2){
+    font-size: 19px;
+    letter-spacing: 8px;
+    font-weight: 500;
+    color: rgb(36, 36, 36);
+    cursor: pointer;
+    padding-left: 10px;
+}
+.overview_credit_down p:nth-child(1){
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    
+    cursor: pointer;
+    padding-left: 10px;
+    background-color: rgba(15, 64, 199, 0.5);
+    border-radius: 5px;
+}
+.overview_credit_up p:nth-child(2){
+    font-size: 19px;
+    letter-spacing: 8px;
+    font-weight: 500;
+    padding-left: 10px;
+    color: rgb(36, 36, 36);
+    cursor: pointer;
+}
